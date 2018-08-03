@@ -36,7 +36,8 @@ public class Calculator{
 			//perform operator
 			if( operator == '+'){
 				//case the operation entered is +	
-				answer = num1 + num2;
+				//answer = num1 + num2;
+				answer = CalculatorWithMethods.add(num1, num2);
 			} else if( operator == '-'){
 				//case the operation entered is -
 				answer = num1 - num2;
